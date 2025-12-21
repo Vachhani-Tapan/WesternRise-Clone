@@ -1,0 +1,625 @@
+body{
+    overflow-x: hidden;
+}
+.autoscroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #1E3932;
+    height: auto;
+    width: 100%;
+}
+.marquee{
+    display: flex;
+    overflow-x: hidden;
+}
+.scrollauto{
+    align-items: center;
+    word-spacing: .3vw;
+    padding-top: .35vw;
+    padding-bottom: .35vw;
+    /* margin-top: .5vw; */
+    display: flex;
+    gap: 15vw;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.circle>img{
+    width: .75vw;
+    height: 1.25vh;
+    border-radius: 50%;
+    background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    margin-top: 2.75vw;
+    display: flex;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftnav {
+    gap: 1vw;
+    color: white;
+    font-size: 1.05rem;
+    display: flex;
+    top: 6.5%;
+    left: 3%;
+}
+
+.middlelogonav {
+    align-content: center;
+    display: flex;
+    margin-right: 5vw;
+}
+.middlelogonav>img{
+    width: 15vw;
+}
+
+.lastnav {
+    display: flex;
+    font-size: 1.05rem;
+    gap: 1.5vw;
+}
+
+.inr {
+    display: flex;
+    align-items: center;
+    /* color: white; */
+}
+    .shop>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .explore>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .support>a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+
+
+.login{
+    margin-top: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: #F1F0ED;
+    width: fit-content;
+    padding: 4vw 10vw 4vw 10vw;
+}
+.logintext{
+    font-size: 1.75rem;
+    margin-bottom: 1.5vw;
+    text-align: center;
+}
+.emailbox{
+    margin-top: 2vw;
+    font-size: 1.15rem;
+    opacity: 0.9;
+    color: gray;
+    background-color: white;
+    padding: 1.5vw 25vw 1.5vw 3vw;
+}
+.password{
+    margin-top: 1vw;
+    font-size: 1.15rem;
+    opacity: 0.9;
+    color: gray;
+    background-color: white;
+    padding: 1.5vw 25vw 1.5vw 3vw;
+}
+.forget{
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    color: rgb(90, 90, 90);
+    width: fit-content;
+    font-size: 1.15rem;
+    border-bottom: .1vw solid gray;
+}
+.signup{
+    display: flex;
+    justify-self: center;
+    margin-top: 1.5vw;
+    color: rgb(90, 90, 90);
+    font-size: 1.25rem;
+    width: fit-content;
+    text-align: center;
+    border-bottom: .1vw solid gray;
+}
+.loginbox{
+    margin-top: 1vw;
+    font-size: 1.3rem;
+    opacity: 0.9;
+    color: white;
+    background-color: black;
+    padding: 1.5vw 25vw 1.5vw 3vw;
+}
+
+
+
+
+.footer {
+    display: flex;
+    gap: 10vw;
+    /* justify-content: space-between; */
+    margin-left: 3vw;
+    margin-right: 4vw;
+    margin-top: 5.5vw;
+    width: 100%;
+    min-height: auto; 
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+}
+
+.jointext {
+    font-size: 1.1rem;
+}
+
+.joinpara {
+    margin-top: .75vw;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.emailwhole {
+    display: flex;
+    gap: 10vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email {
+    font-size: 1.15rem;
+    opacity: 0.66;
+}
+
+.rightarr {
+    background-color: lightgrey;
+    padding: .5rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.copy {
+    margin-top: 5vw;
+    font-size: 1.1rem;
+    opacity: 0.66;
+}
+
+.rightfoot {
+    display: flex;
+    gap: 7vw;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+}
+
+.concierge {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.otherfoot {
+    font-size: 1.15rem;
+}
+
+.inrruppee {
+    display: flex;
+    gap: 1vw;
+
+}
+
+.textinr {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.downarrow {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.74rem;
+}
+
+@media only screen and (max-width : 1100px) {
+    .head{
+        font-size: 1.2rem;
+    }
+    .textinr{
+        font-size: 1.2rem;
+    }
+    .rightfoot{
+        gap: 5vw;
+    }
+}
+
+/* Tablet Styles (768px - 1024px) */
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 4vw;
+    }
+    
+    .leftnav {
+        gap: 2vw;
+        font-size: 1rem;
+    }
+    
+    .middlelogonav>img {
+        width: 20vw;
+    }
+    
+    .lastnav {
+        font-size: 1rem;
+        gap: 2vw;
+    }
+    
+    .login {
+        margin-top: 5vw;
+        padding: 5vw 8vw;
+        align-self: center;
+    }
+    
+    .emailbox, .password, .loginbox {
+        padding: 2vw 20vw 2vw 3vw;
+    }
+    
+    .footer {
+        flex-direction: column;
+        gap: 8vw;
+        margin-top: 8vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    
+    .join {
+        width: 100%;
+        height: auto;
+    }
+    
+    .rightfoot {
+        width: 100%;
+        gap: 8vw;
+        flex-wrap: wrap;
+    }
+    
+    .head {
+        font-size: 1.4rem;
+        margin-bottom: 3vw;
+    }
+    
+    .otherfoot {
+        font-size: 1.1rem;
+    }
+    
+    .scrollauto {
+        gap: 10vw;
+        font-size: 0.9rem;
+    }
+    
+    .circle>img {
+        width: 1.2vw;
+        height: 2vh;
+    }
+}
+
+/* Mobile Landscape (576px - 767px) */
+@media only screen and (max-width: 767px) {
+    .navbar {
+        margin-top: 6vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3vw;
+    }
+    
+    .leftnav {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        gap: 4vw;
+        margin-top: 2vw;
+    }
+    
+    .middlelogonav {
+        order: 0;
+        margin-right: 0;
+    }
+    
+    .middlelogonav>img {
+        width: 25vw;
+    }
+    
+    .lastnav {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+        margin-top: 2vw;
+        gap: 4vw;
+    }
+    
+    .login {
+        margin-top: 8vw;
+        padding: 6vw 5vw;
+        width: 80%;
+        align-self: center;
+    }
+    
+    .logintext {
+        font-size: 1.5rem;
+        margin-bottom: 4vw;
+    }
+    
+    .emailbox, .password, .loginbox {
+        padding: 3vw 15vw 3vw 4vw;
+        font-size: 1rem;
+    }
+    
+    .forget, .signup {
+        font-size: 1rem;
+        margin-bottom: 3vw;
+    }
+    
+    .footer {
+        flex-direction: column;
+        gap: 10vw;
+        margin-top: 10vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .join {
+        width: 100%;
+    }
+    
+    .jointext {
+        font-size: 1.3rem;
+    }
+    
+    .joinpara {
+        font-size: 1rem;
+        margin-top: 2vw;
+    }
+    
+    .emailwhole {
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    .rightfoot {
+        flex-direction: column;
+        gap: 8vw;
+    }
+    
+    .concierge {
+        width: 100%;
+    }
+    
+    .head {
+        font-size: 1.5rem;
+        margin-bottom: 4vw;
+    }
+    
+    .otherfoot {
+        font-size: 1.1rem;
+        margin-bottom: 1.5vw;
+    }
+    
+    .inrruppee {
+        justify-content: flex-start;
+        margin-top: 4vw;
+    }
+    
+    .scrollauto {
+        gap: 8vw;
+        font-size: 0.8rem;
+        padding: 1vw 0;
+    }
+    
+    .circle>img {
+        width: 1.5vw;
+        height: 2.5vh;
+    }
+}
+
+/* Mobile Portrait (max-width: 575px) */
+@media only screen and (max-width: 575px) {
+    .navbar {
+        margin-top: 8vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        flex-direction: column;
+        gap: 4vw;
+    }
+    
+    .leftnav {
+        flex-direction: column;
+        gap: 3vw;
+        align-items: center;
+    }
+    
+    .middlelogonav>img {
+        width: 35vw;
+    }
+    
+    .lastnav {
+        flex-direction: column;
+        gap: 3vw;
+        align-items: center;
+    }
+    
+    .inr {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .login {
+        width: 90%;
+        margin-top: 15vw;
+        padding: 8vw 6vw;
+    }
+    
+    .logintext {
+        font-size: 1.4rem;
+        margin-bottom: 6vw;
+    }
+    
+    .emailbox, .password, .loginbox {
+        padding: 4vw;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    
+    .forget, .signup {
+        font-size: 0.95rem;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .footer {
+        margin-top: 15vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        gap: 12vw;
+    }
+    
+    .jointext {
+        font-size: 1.2rem;
+    }
+    
+    .joinpara {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+    
+    .emailwhole {
+        flex-direction: column;
+        gap: 4vw;
+        align-items: flex-start;
+    }
+    
+    .rightarr {
+        align-self: flex-start;
+        margin-top: 2vw;
+    }
+    
+    .copy {
+        font-size: 0.9rem;
+        margin-top: 8vw;
+        text-align: center;
+    }
+    
+    .rightfoot {
+        gap: 10vw;
+    }
+    
+    .head {
+        font-size: 1.3rem;
+        margin-bottom: 5vw;
+    }
+    
+    .otherfoot {
+        font-size: 1rem;
+        margin-bottom: 2vw;
+    }
+    
+    .inrruppee {
+        justify-content: center;
+        margin-top: 6vw;
+    }
+    
+    .autoscroll {
+        position: relative;
+    }
+    
+    .scrollauto {
+        gap: 6vw;
+        font-size: 0.7rem;
+        padding: 2vw 0;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    
+    .circle>img {
+        width: 2vw;
+        height: 3vh;
+        min-width: 8px;
+        min-height: 8px;
+    }
+    
+    /* Fix for marquee on mobile */
+    marquee {
+        width: 100%;
+    }
+}
+
+/* Small Mobile Devices (max-width: 375px) */
+@media only screen and (max-width: 375px) {
+    .login {
+        width: 95%;
+        padding: 10vw 5vw;
+    }
+    
+    .emailbox, .password, .loginbox {
+        padding: 5vw;
+    }
+    
+    .navbar {
+        margin-top: 10vw;
+    }
+    
+    .middlelogonav>img {
+        width: 40vw;
+    }
+    
+    .scrollauto {
+        font-size: 0.65rem;
+        gap: 4vw;
+    }
+    
+    .footer {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    
+    .joinpara {
+        font-size: 0.9rem;
+    }
+}

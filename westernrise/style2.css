@@ -1,0 +1,2593 @@
+body{
+    overflow-x: hidden;
+}
+.autoscroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #1E3932;
+    height: auto;
+    width: 100vw;
+}
+.marquee{
+    display: flex;
+    overflow-x: hidden;
+}
+.scrollauto{
+    align-items: center;
+    word-spacing: .3vw;
+    padding-top: .35vw;
+    padding-bottom: .35vw;
+    /* margin-top: .5vw; */
+    display: flex;
+    gap: 15vw;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.circle>img{
+    width: .75vw;
+    height: 1.25vh;
+    border-radius: 50%;
+    background-color:white;
+}
+
+
+
+.bigmainimg{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top:2.1vw;
+    background-image: url(https://westernrise.com/cdn/shop/collections/featured-image-in-stock.jpg?v=1758795972&width=2000);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+
+
+
+.navtypeonimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftnav {
+    position: absolute;
+    gap: 1vw;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    top: 6.5%;
+    left: 3%;
+}
+
+.middlelogonav {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 6.5%;
+}
+
+.lastnav {
+    position: absolute;
+    display: flex;
+    left: 85%;
+    font-size: 1.5rem;
+    top: 6.5%;
+    gap: 1.5vw;
+}
+
+.inr {
+    display: flex;
+    align-items: center;
+    color: white;
+    fill: white;
+}
+
+.shop:hover {
+    .wrapmainshop {
+        display: flex;
+    }
+}
+
+.explore:hover {
+    .wrapmainexplore {
+        display: flex;
+    }
+}
+
+.support:hover {
+    .wrapmainsupport {
+        display: flex;
+    }
+}
+
+    .shop>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .explore>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .support>a {
+        text-decoration: none;
+        color: white;
+    }
+
+.wrapmainshop {
+    position: absolute;
+    width: 100vw;
+    top: 250%;
+    display: none;
+}
+
+.wrapmainexplore {
+    position: absolute;
+    width: 100vw;
+    top: 250%;
+    display: none;
+}
+
+.wrapmainsupport {
+    position: absolute;
+    width: 100vw;
+    top: 250%;
+    display: none;
+}
+
+.mainshop {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    border: 1px solid;
+    background-color: white;
+    /* gap: 5vw; */
+    height: 90vh;
+}
+
+
+
+
+.mainshop {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    border: 1px solid;
+    background-color: white;
+    /* gap: 5vw; */
+    height: 90vh;
+}
+
+.leftshop {
+    padding: 3.5vw;
+    width: 30vw;
+}
+
+.escape {
+    /* position: absolute; */
+    z-index: 1;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lightweight {
+    color: black;
+    font-size: 1.85rem;
+    margin-bottom: 2vw;
+}
+
+.featurerow {
+    color: black;
+    display: flex;
+    gap: 2vw;
+}
+
+.featureelement {
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.featured {
+    font-size: 1.5rem;
+    margin-bottom: 1.5vw;
+    word-spacing: .3vw;
+}
+
+.allfeat {
+    font-size: 1.25rem;
+    margin-bottom: .5vw;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.rightshop {
+    display: flex;
+}
+
+.firstimg {
+    display: flex;
+    width: fit-content;
+}
+
+.firstimg>img {
+    width: 45.7%;
+    height: 100%;
+}
+.searchicon>img{
+    width: 1.5vw;
+}
+.shophome{
+    margin-top: 2.25vw;
+    margin-left: 3vw ;
+    font-size: 1.24rem;
+    opacity: 0.9;
+}
+.expmoreshop{
+    margin-top: 2vw;
+    margin-left: 3vw ;
+    font-size: 1.5rem;
+    width: 60vw;
+    /* opacity: 0.9; */
+}
+.shopall{
+    font-size: 2.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 3vw;
+    margin-top: 2.5vw;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.25vw;
+    margin-left: 3vw ;
+    margin-right: 3vw ;
+    font-size: 1.24rem;
+    opacity: 0.9;
+    font-size: 1.4rem;
+}
+.leftfilt{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    font-size: 1.64rem;
+}
+.filtimg>img{
+    height: 2vw;
+    width: 3vw;
+}
+.rightfilt{
+    display: flex;
+    font-size: 1.64rem;
+}
+
+
+
+
+
+
+.othercontent2 {
+    margin-top: 2vw;
+    width: 100vw;
+    height: 70vh;
+}
+
+
+.pantimg1 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_3_1.webp?v=1754475080&width=500);
+}
+
+.pantimg2 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_1_1.webp?v=1757975208&width=500);
+}
+
+.pantimg3 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_2_1.webp?v=1757283799&width=500);
+}
+
+.pantimg4 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_4.webp?v=1757283799&width=500);
+}
+.pantimg5 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_4.png?v=1756236328&width=800);
+}
+.pantimg6 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/39.jpg?v=1757282251&width=500);
+}
+.pantimg7 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_3.png?v=1756236328&width=500);
+}
+.pantimg8 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/5_0ae0d3fe-980f-42be-96bb-81940d630b30.jpg?v=1757975409&width=500);
+}
+.pantimg9 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/1_8ce40083-93d9-4b36-92d4-f380c795b71a.jpg?v=1756229865&width=500);
+}
+.pantimg10 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/3_4ce5f2fa-66dd-4020-98d9-5aca4eddcf23.jpg?v=1756229865&width=500);
+}
+.pantimg11 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/26_6c3a6abb-85cf-4296-b0ea-1e89e2fce302.png?v=1758722133&width=500);
+}
+.pantimg12 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_1.png?v=1758729434&width=500);
+}
+.pantimg13 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_3_1.webp?v=1754475080&width=500);
+}
+
+.pantimg14 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_1_1.webp?v=1757975208&width=500);
+}
+
+.pantimg15 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_2_1.webp?v=1757283799&width=500);
+}
+
+.pantimg16 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Lecation_X_Ctoon_Tee_Regular_Studio_Flats_4.webp?v=1757283799&width=500);
+}
+.pantimg17 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_4.png?v=1756236328&width=800);
+}
+.pantimg18 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/39.jpg?v=1757282251&width=500);
+}
+.pantimg19 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_3.png?v=1756236328&width=500);
+}
+.pantimg20 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/5_0ae0d3fe-980f-42be-96bb-81940d630b30.jpg?v=1757975409&width=500);
+}
+.pantimg21 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/1_8ce40083-93d9-4b36-92d4-f380c795b71a.jpg?v=1756229865&width=500);
+}
+.pantimg22 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/3_4ce5f2fa-66dd-4020-98d9-5aca4eddcf23.jpg?v=1756229865&width=500);
+}
+.pantimg23 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/26_6c3a6abb-85cf-4296-b0ea-1e89e2fce302.png?v=1758722133&width=500);
+}
+.pantimg24 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_1.png?v=1758729434&width=500);
+}
+.pantimg25 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Venture_Crew_Flats_Front_2.jpg?v=1757062923&width=500);
+}
+.pantimg26 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Venture_Crew_Flats_Front_4.jpg?v=1757062923&width=500);
+}
+.pantimg27 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_3_9fc9e540-da85-437e-a44c-ba34261df716.png?v=1757063167&width=500);
+}
+.pantimg28 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Venture_Hoodie_Flats_Front_4.jpg?v=1757063433&width=500);
+}
+.pantimg29 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Venture_Hoodie_Flats_Front_3.jpg?v=1757063167&width=500);
+}
+.pantimg30 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Venture_Hoodie_Flats_Front_2.jpg?v=1757063167&width=500);
+}
+.pantimg31 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_1_1d8ed0f2-6357-41e5-9890-acedc21be5a2.png?v=1757063549&width=500);
+}
+.pantimg32 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/3_678ca1f5-0141-4882-ba18-3fb08c42fc12.png?v=1757063549&width=500);
+}
+.pantimg33 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0060.jpg?v=1759303773&width=500);
+}
+.pantimg34 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0056.jpg?v=1759303776&width=500);
+}
+.pantimg35 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0069.jpg?v=1759303771&width=500);
+}
+.pantimg36 {
+    /* position: relative; */
+    width: 19vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://westernrise.com/cdn/shop/files/9_63da3747-365f-4ffd-9a71-22b1c8f5ad44.png?v=1758610445&width=500);
+}
+
+
+.pantimg1:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.2029.jpg?v=1754475080&width=500);
+}
+
+.pantimg2:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1554.jpg?v=1757975208&width=500);
+}
+
+.pantimg3:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1998.jpg?v=1757283799&width=500);
+}
+
+.pantimg4:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1448.jpg?v=1757283799&width=500);
+}
+.pantimg5:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1285.jpg?v=1756236328&width=500);
+}
+.pantimg6:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1431.jpg?v=1757282251&width=500);
+}
+.pantimg7:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1527.jpg?v=1756229865&width=500);
+}
+.pantimg8:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1208.jpg?v=1757975398&width=500);
+}
+.pantimg9:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1708.jpg?v=1756229865&width=500);
+}
+.pantimg10:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1796.jpg?v=1756229865&width=500);
+}
+.pantimg11:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1654.jpg?v=1758722133&width=500);
+}
+.pantimg12:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_1.png?v=1758729434&width=500);
+}
+.pantimg13:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.2029.jpg?v=1754475080&width=500);
+}
+
+.pantimg14:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1554.jpg?v=1757975208&width=500);
+}
+
+.pantimg15:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1998.jpg?v=1757283799&width=500);
+}
+
+.pantimg16:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1448.jpg?v=1757283799&width=500);
+}
+.pantimg17:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1285.jpg?v=1756236328&width=500);
+}
+.pantimg18:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1431.jpg?v=1757282251&width=500);
+}
+.pantimg19:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1527.jpg?v=1756229865&width=500);
+}
+.pantimg20:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1208.jpg?v=1757975398&width=500);
+}
+.pantimg21:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1708.jpg?v=1756229865&width=500);
+}
+.pantimg22:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1796.jpg?v=1756229865&width=500);
+}
+.pantimg23:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/WESTERNR.1654.jpg?v=1758722133&width=500);
+}
+.pantimg24:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/Artboard_1.png?v=1758729434&width=500);
+}
+.pantimg25:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2580.jpg?v=1757062923&width=500);
+}
+
+.pantimg26:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2912.jpg?v=1757062923&width=500);
+}
+
+.pantimg27:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2696.jpg?v=1757063167&width=500);
+}
+
+.pantimg28:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2928.jpg?v=1757063433&width=500);
+}
+.pantimg29:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2661.jpg?v=1757063167&width=500);
+}
+.pantimg30:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2678.jpg?v=1757063167&width=500);
+}
+.pantimg31:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2713.jpg?v=1757063549&width=500);
+}
+.pantimg32:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A2755.jpg?v=1757063549&width=500);
+}
+.pantimg33:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0855.jpg?v=1753733078&width=500);
+}
+.pantimg34:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0763.jpg?v=1753733031&width=500);
+}
+.pantimg35:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0892.jpg?v=1753733101&width=500);
+}
+.pantimg36:hover {
+    transition: .35s ease-in-out all;
+    background-image: url(https://westernrise.com/cdn/shop/files/402A0184_d0a288ce-9dec-44cf-a3c6-69cec8ff1414.jpg?v=1758610445&width=500);
+}
+
+
+.clothsrow {
+    display: flex;
+    padding-left: 2.25vw;
+    scrollbar-width: none;
+    /* position: relative; */
+}
+
+.clothelement {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1vw;
+    width: 25vw;
+    height: 70vh;
+    align-items: center;
+}
+
+.vertical {
+    position: absolute;
+    top: 12.5%;
+    left: -2%;
+    margin-top: .5vw;
+    align-items: center;
+    display: flex;
+    gap: 1vw;
+    transform: rotate(90deg);
+    color: #B04026;
+}
+
+.thirty {
+    background-color: #B04026;
+    padding: .5vw 1vw .5vw 1vw;
+    color: white;
+}
+
+.pantname {
+    margin-top: .5vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pricepant {
+    display: flex;
+    justify-content: center;
+    margin-top: .35vw;
+    gap: .5vw;
+    align-items: center;
+}
+
+.realprice {
+    font-size: 1.35rem;
+    color: #B04026;
+}
+
+.delprice {
+    font-size: 1.2rem;
+    opacity: .5;
+}
+
+.nameofpant{
+    margin-top: .4vw;
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+    opacity: 0.65;
+}
+
+
+
+
+.othercont3{
+    display: flex;
+    margin-top: 285vw;
+    align-content: center;
+    width: 120vw;
+    height: 80.65vh;
+}
+.leftcont3black{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 4vw 3.5vw 2vw 3.5vw;
+    font-size: 1.5rem;
+}
+.whywest{
+    margin-left: 1.5vw;
+    font-size: 3rem;
+    margin-bottom: 1.25vw;
+}
+.smallul>li{
+    margin-bottom: 1.75vw;
+}
+.smallli{
+    width: 32vw;
+}
+
+.rightcont3img>img{
+    width: 58vw;
+    height: 80.5vh;
+}
+.rightcont3img{
+    width: 100vw;
+    height: 80.5vh;
+}
+
+
+
+
+
+.questionfreq{
+    margin-top: 5vw;
+    text-align: center;
+    align-self: center;
+}
+.freq_ques{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.freq_questext{
+    margin-top: .75vw;
+    color: rgba(0, 0, 0, 0.485);
+}
+.q1{
+    display: flex;
+    text-align: center;
+    /* gap: 15vw; */
+    /* margin: auto; */
+    align-self: center;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+.question{
+    font-size: 1.5rem;
+}
+.questionstart{
+    display: flex;
+    padding-top: 3vw;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    width: 55vw;
+    text-align: center;
+}
+.footerhr{
+    text-align: center;
+    align-self: center;
+    width: 30vw;
+}
+summary{
+    cursor: pointer;
+    list-style: none;
+    align-self: center;
+    /* padding: 25px; */
+}
+summary::marker {
+    display: none;
+}
+details{
+    align-self: center;
+    width: 48vw;
+    text-align: start;
+}
+details > p{
+    text-align: start;
+    width: 50vw;
+    opacity: 0.95;
+    align-self: center;
+    /* margin-left: 1.3vw; */
+}
+
+
+
+
+.wholeblogelem{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 28vw;
+}
+.horizontal{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    background-color: #B04026;
+    padding: .5vw;
+    font-size: 1.5rem;
+    color: white;
+    align-self: center;
+}
+.blogpostsrow{
+    display: flex;
+    gap: 3.85vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.blogrowelement1{
+    background-image: url(https://westernrise.com/cdn/shop/articles/custom_resized_26adca76-790b-4663-bbd1-769c8070e724.jpg?v=1693427885&width=1000);
+    background-position: center;
+    background-size: cover;
+    width: 28vw;
+    height: 55vh;
+}
+.blogrowelement2{
+    background-image: url(https://westernrise.com/cdn/shop/articles/westernrise-mens-travel-clothes_e1322a1f-f759-4705-a7a6-6d99c2719399.jpg?v=1698782916&width=600);
+    background-position: center;
+    background-size: cover;
+    width: 28vw;
+    height: 55vh;
+}
+.blogrowelement3{
+    background-image: url(https://westernrise.com/cdn/shop/articles/merino-wool-travel-clothing_3634cc55-cade-4d90-ba76-42fa64d57c0a.jpg?v=1740391748&width=600);
+    background-position: center;
+    background-size: cover;
+    width: 28vw;
+    height: 55vh;
+}
+.featuredblog{
+    margin-top: 10vw;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2.75rem;
+    font-family :Arial, Helvetica, sans-serif;
+}
+.contentofblog{
+    margin-top: 2vw;
+    font-size: 1.74rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.date{
+    display: flex;
+    margin-top: 1.5vw;
+    align-items: center;
+    gap: .75vw;
+    opacity: 0.7;
+}
+.datetext{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+.beforefoothr{
+    margin-top: 3vw;
+    color: black;
+    border: .05vw solid black;
+    opacity: 0.9;
+}
+.footer {
+    display: flex;
+    gap: 10vw;
+    /* justify-content: space-between; */
+    margin-left: 3vw;
+    margin-right: 4vw;
+    margin-top: 5.5vw;
+    width: 100%;
+    min-height: auto; 
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+}
+
+.jointext {
+    font-size: 1.1rem;
+}
+
+.joinpara {
+    margin-top: .75vw;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.emailwhole {
+    display: flex;
+    gap: 10vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email {
+    font-size: 1.15rem;
+    opacity: 0.66;
+}
+
+.rightarr {
+    background-color: lightgrey;
+    padding: .5rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.copy {
+    margin-top: 5vw;
+    font-size: 1.1rem;
+    opacity: 0.66;
+}
+
+.rightfoot {
+    display: flex;
+    gap: 7vw;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+}
+
+.concierge {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.otherfoot {
+    font-size: 1.15rem;
+}
+
+.inrruppee {
+    display: flex;
+    gap: 1vw;
+
+}
+
+.textinr {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.downarrow {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.74rem;
+}
+
+
+/* ========== RESPONSIVE STYLES ========== */
+
+/* Tablet Breakpoint (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Top scrolling banner */
+    .scrollauto {
+        gap: 10vw;
+        font-size: 1rem;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+    }
+    
+    .circle > img {
+        width: 1vw;
+        height: 1.5vh;
+    }
+    
+    /* Main navigation */
+    .bigmainimg {
+        height: 60vh;
+        margin-top: 2.8vw;
+    }
+    
+    .leftnav {
+        font-size: 1.2rem;
+        top: 5%;
+    }
+    
+    .lastnav {
+        font-size: 1.2rem;
+        left: 82%;
+        top: 5%;
+        gap: 1.2vw;
+    }
+    
+    .searchicon > img {
+        width: 1.8vw;
+    }
+    
+    /* Dropdown menus */
+    .mainshop {
+        height: 70vh;
+    }
+    
+    .escape {
+        font-size: 1.6rem;
+    }
+    
+    .lightweight {
+        font-size: 1.4rem;
+    }
+    
+    .featured {
+        font-size: 1.2rem;
+    }
+    
+    .allfeat {
+        font-size: 1rem;
+    }
+    
+    /* Product section */
+    .shopall {
+        font-size: 2.2rem;
+    }
+    
+    .expmoreshop {
+        font-size: 1.2rem;
+        width: 70vw;
+    }
+    
+    .leftfilt, .rightfilt {
+        font-size: 1.3rem;
+    }
+    
+    .filtimg > img {
+        height: 2.2vw;
+        width: 3.2vw;
+    }
+    
+    /* Product grid */
+    .clothsrow {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .clothelement {
+        width: 40vw;
+        height: 55vh;
+        margin: 2vw;
+    }
+    
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        width: 40vw;
+        height: 40vh;
+    }
+    
+    .vertical {
+        top: 8%;
+        left: -5%;
+        transform: rotate(90deg) scale(0.9);
+    }
+    
+    .pantname {
+        font-size: 1.3rem;
+    }
+    
+    .realprice {
+        font-size: 1.2rem;
+    }
+    
+    .delprice {
+        font-size: 1rem;
+    }
+    
+    .nameofpant {
+        font-size: 1.1rem;
+    }
+    
+    /* Adjust position for product grid container */
+    .othercontent2 {
+        height: auto;
+        margin-top: 4vw;
+    }
+    
+    /* Why Western Rise section */
+    .othercont3 {
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        margin-top: 320vw;
+    }
+    
+    .leftcont3black {
+        width: 100%;
+        padding: 5vw 4vw;
+    }
+    
+    .whywest {
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+    
+    .smallli {
+        width: 100%;
+    }
+    
+    .rightcont3img {
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .rightcont3img > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* FAQ Section */
+    .freq_ques {
+        font-size: 2.5rem;
+    }
+    
+    .questionstart {
+        width: 80vw;
+    }
+    
+    details {
+        width: 70vw;
+    }
+    
+    details > p {
+        width: 70vw;
+    }
+    
+    /* Blog posts */
+    .featuredblog {
+        font-size: 2.2rem;
+    }
+    
+    .blogpostsrow {
+        flex-wrap: wrap;
+        gap: 4vw;
+    }
+    
+    .wholeblogelem {
+        width: 40vw;
+    }
+    
+    .blogrowelement1,
+    .blogrowelement2,
+    .blogrowelement3 {
+        width: 40vw;
+        height: 40vh;
+    }
+    
+    .contentofblog {
+        font-size: 1.4rem;
+    }
+    
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        gap: 5vw;
+    }
+    
+    .join {
+        width: 80vw;
+        height: auto;
+    }
+    
+    .rightfoot {
+        flex-wrap: wrap;
+        gap: 5vw;
+    }
+    
+    .concierge {
+        min-width: 25vw;
+    }
+}
+
+/* Mobile Breakpoint (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Top scrolling banner */
+    .scrollauto {
+        gap: 8vw;
+        font-size: 0.8rem;
+        padding-top: 0.8vw;
+        padding-bottom: 0.8vw;
+    }
+    
+    .circle > img {
+        width: 1.5vw;
+        height: 1.8vh;
+    }
+    
+    /* Main navigation */
+    .bigmainimg {
+        height: 50vh;
+        margin-top: 3.5vw;
+    }
+    
+    .navtypeonimg {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .leftnav {
+        position: static;
+        margin-top: 3vw;
+        margin-left: 3vw;
+        gap: 3vw;
+    }
+    
+    .middlelogonav {
+        position: static;
+        transform: none;
+        order: -1;
+        margin: 3vw 0 0 3vw;
+    }
+    
+    .middlelogonav img {
+        width: 150px;
+    }
+    
+    .lastnav {
+        position: static;
+        margin: 3vw 0 0 3vw;
+        gap: 4vw;
+    }
+    
+    .searchicon > img {
+        width: 2.5vw;
+    }
+    
+    /* Dropdown menus - hide on mobile or make them full screen */
+    .wrapmainshop,
+    .wrapmainexplore,
+    .wrapmainsupport {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+    }
+    
+    .mainshop {
+        position: relative;
+        width: 90%;
+        margin: 5vh auto;
+        flex-direction: column;
+        height: auto;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+    
+    .leftshop {
+        width: 100%;
+        padding: 4vw;
+    }
+    
+    .rightshop {
+        display: none; /* Hide images on mobile for simplicity */
+    }
+    
+    /* Product section */
+    .shophome {
+        margin-top: 4vw;
+        font-size: 1rem;
+    }
+    
+    .shopall {
+        font-size: 1.8rem;
+        margin-top: 3vw;
+    }
+    
+    .expmoreshop {
+        font-size: 1rem;
+        width: 90vw;
+        margin-top: 3vw;
+    }
+    
+    .filter {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3vw;
+        margin-top: 4vw;
+    }
+    
+    .leftfilt {
+        font-size: 1.2rem;
+    }
+    
+    .filtimg > img {
+        height: 3vw;
+        width: 4vw;
+    }
+    
+    .rightfilt {
+        font-size: 1.2rem;
+    }
+    
+    /* Product grid */
+    .clothelement {
+        width: 80vw;
+        height: 50vh;
+        margin: 4vw 0;
+    }
+    
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        width: 80vw;
+        height: 35vh;
+    }
+    
+    .vertical {
+        top: 5%;
+        left: -8%;
+        transform: rotate(90deg) scale(0.8);
+    }
+    
+    /* Adjust position for product grid container */
+    .othercontent2 {
+        margin-top: 6vw;
+    }
+    
+    /* Why Western Rise section */
+    .othercont3 {
+        margin-top: 280vw;
+    }
+    
+    .whywest {
+        font-size: 2rem;
+    }
+    
+    .leftcont3black {
+        font-size: 1.2rem;
+    }
+    
+    /* FAQ Section */
+    .freq_ques {
+        font-size: 2rem;
+    }
+    
+    .questionstart {
+        width: 90vw;
+    }
+    
+    .question {
+        font-size: 1.2rem;
+    }
+    
+    details {
+        width: 85vw;
+    }
+    
+    details > p {
+        width: 85vw;
+        font-size: 1rem;
+    }
+    
+    /* Blog posts */
+    .featuredblog {
+        font-size: 1.8rem;
+        margin-top: 8vw;
+    }
+    
+    .wholeblogelem {
+        width: 80vw;
+        margin-bottom: 6vw;
+    }
+    
+    .blogrowelement1,
+    .blogrowelement2,
+    .blogrowelement3 {
+        width: 80vw;
+        height: 35vh;
+    }
+    
+    .horizontal {
+        font-size: 1.2rem;
+        padding: 1vw;
+    }
+    
+    .contentofblog {
+        font-size: 1.2rem;
+    }
+    
+    .datetext {
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .jointext {
+        font-size: 1rem;
+    }
+    
+    .joinpara {
+        font-size: 1rem;
+    }
+    
+    .email {
+        font-size: 1rem;
+    }
+    
+    .copy {
+        font-size: 0.9rem;
+        margin-top: 8vw;
+    }
+    
+    .head {
+        font-size: 1.2rem;
+    }
+    
+    .otherfoot {
+        font-size: 1rem;
+    }
+    
+    .rightfoot {
+        gap: 8vw;
+    }
+    
+    .concierge {
+        min-width: 35vw;
+    }
+}
+
+/* Small Mobile Breakpoint (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* Top scrolling banner */
+    .scrollauto {
+        gap: 5vw;
+        font-size: 0.7rem;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    
+    .circle > img {
+        width: 2vw;
+        height: 2vh;
+    }
+    
+    /* Main navigation */
+    .bigmainimg {
+        height: 40vh;
+        margin-top: 4.5vw;
+    }
+    
+    .leftnav {
+        font-size: 1rem;
+        gap: 4vw;
+    }
+    
+    .middlelogonav img {
+        width: 120px;
+    }
+    
+    .lastnav {
+        gap: 5vw;
+    }
+    
+    .searchicon > img {
+        width: 3vw;
+    }
+    
+    /* Product section */
+    .shopall {
+        font-size: 1.5rem;
+    }
+    
+    .expmoreshop {
+        font-size: 0.9rem;
+    }
+    
+    .filter {
+        font-size: 0.9rem;
+    }
+    
+    /* Product grid */
+    .clothelement {
+        width: 90vw;
+        height: 45vh;
+    }
+    
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        width: 90vw;
+        height: 30vh;
+    }
+    
+    .vertical {
+        top: 3%;
+        left: -10%;
+        transform: rotate(90deg) scale(0.7);
+    }
+    
+    .pantname {
+        font-size: 1.1rem;
+    }
+    
+    .realprice {
+        font-size: 1rem;
+    }
+    
+    .delprice {
+        font-size: 0.9rem;
+    }
+    
+    .nameofpant {
+        font-size: 1rem;
+    }
+    
+    /* Why Western Rise section */
+    .othercont3 {
+        margin-top: 240vw;
+    }
+    
+    .whywest {
+        font-size: 1.8rem;
+    }
+    
+    /* FAQ Section */
+    .freq_ques {
+        font-size: 1.8rem;
+    }
+    
+    .question {
+        font-size: 1rem;
+    }
+    
+    /* Blog posts */
+    .featuredblog {
+        font-size: 1.5rem;
+    }
+    
+    .horizontal {
+        font-size: 1rem;
+    }
+    
+    .contentofblog {
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .join {
+        width: 90vw;
+    }
+    
+    .rightfoot {
+        flex-direction: column;
+        gap: 5vw;
+    }
+    
+    .concierge {
+        width: 100%;
+    }
+}
+
+/* Fix for very small screens */
+@media screen and (max-width: 320px) {
+    .scrollauto {
+        font-size: 0.6rem;
+    }
+    
+    .shopall {
+        font-size: 1.3rem;
+    }
+    
+    .whywest,
+    .freq_ques,
+    .featuredblog {
+        font-size: 1.5rem;
+    }
+}
+
+/* Fix for viewport overflow */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    .main {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+/* Improve touch targets for mobile */
+@media screen and (max-width: 768px) {
+    .shop > a,
+    .explore > a,
+    .support > a,
+    .searchicon,
+    .inr,
+    .emailwhole,
+    .otherfoot {
+        padding: 2vw;
+        min-height: 44px; /* Apple's recommended minimum touch target size */
+        display: flex;
+        align-items: center;
+    }
+    
+    .leftnav > div {
+        padding: 2vw 0;
+    }
+}
+
+/* Hide marquee on very small screens if needed */
+@media screen and (max-width: 480px) {
+    .autoscroll {
+        height: auto;
+    }
+    
+    .scrollauto {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+/* ========== RESPONSIVE STYLES ========== */
+
+/* Tablet Breakpoint (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Top scrolling banner */
+    .scrollauto {
+        gap: 8vw;
+        font-size: 0.9rem;
+        padding-top: 0.6vw;
+        padding-bottom: 0.6vw;
+    }
+    
+    .circle > img {
+        width: 1.2vw;
+        height: 1.8vh;
+    }
+    
+    /* Main navigation */
+    .bigmainimg {
+        height: 50vh;
+        margin-top: 2.5vw;
+    }
+    
+    .leftnav {
+        font-size: 1.1rem;
+        top: 4%;
+        gap: 1.5vw;
+    }
+    
+    .lastnav {
+        font-size: 1.1rem;
+        left: 80%;
+        top: 4%;
+        gap: 1.5vw;
+    }
+    
+    .searchicon > img {
+        width: 1.8vw;
+    }
+    
+    /* Dropdown menus */
+    .mainshop {
+        height: 60vh;
+        width: 95vw;
+        left: -3vw;
+    }
+    
+    .escape {
+        font-size: 1.4rem;
+    }
+    
+    .lightweight {
+        font-size: 1.2rem;
+    }
+    
+    .featurerow {
+        gap: 1.5vw;
+    }
+    
+    .featured {
+        font-size: 1.1rem;
+    }
+    
+    .allfeat {
+        font-size: 0.9rem;
+    }
+    
+    .firstimg > img {
+        width: 40%;
+    }
+    
+    /* Product section */
+    .shophome {
+        margin-top: 3vw;
+        margin-left: 4vw;
+        font-size: 1.1rem;
+    }
+    
+    .shopall {
+        font-size: 2rem;
+        margin-left: 4vw;
+        margin-top: 3vw;
+    }
+    
+    .expmoreshop {
+        font-size: 1.1rem;
+        width: 75vw;
+        margin-left: 4vw;
+        margin-top: 2.5vw;
+    }
+    
+    .filter {
+        margin: 3vw 4vw 2vw 4vw;
+        font-size: 1.2rem;
+    }
+    
+    .leftfilt {
+        font-size: 1.2rem;
+        gap: 1vw;
+    }
+    
+    .filtimg > img {
+        height: 2.5vw;
+        width: 3.5vw;
+    }
+    
+    .rightfilt {
+        font-size: 1.2rem;
+    }
+    
+    /* Product grid - 3 items per row on tablet */
+    .othercontent2 {
+        margin-top: 3vw;
+        height: auto;
+        padding: 0 2vw;
+    }
+    
+    .clothsrow {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-bottom: 3vw;
+    }
+    
+    .clothelement {
+        width: 100%;
+        height: 50vh;
+        margin: 0;
+    }
+    
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        width: 100%;
+        height: 35vh;
+    }
+    
+    .vertical {
+        top: 6%;
+        left: -4%;
+        transform: rotate(90deg) scale(0.8);
+        gap: 0.8vw;
+    }
+    
+    .thirty {
+        padding: 0.4vw 0.8vw;
+        font-size: 0.8rem;
+    }
+    
+    .new {
+        font-size: 0.8rem;
+    }
+    
+    .pantname {
+        font-size: 1.1rem;
+        margin-top: 1vw;
+    }
+    
+    .pricepant {
+        gap: 0.5vw;
+        margin-top: 0.5vw;
+    }
+    
+    .realprice {
+        font-size: 1rem;
+    }
+    
+    .delprice {
+        font-size: 0.9rem;
+    }
+    
+    .nameofpant {
+        font-size: 0.9rem;
+        margin-top: 0.5vw;
+    }
+    
+    /* Why Western Rise section */
+    .othercont3 {
+        flex-direction: row;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 180vw;
+    }
+    
+    .leftcont3black {
+        width: 50%;
+        padding: 4vw;
+        font-size: 1.1rem;
+    }
+    
+    .whywest {
+        font-size: 1.8rem;
+        margin-left: 0;
+        margin-bottom: 2vw;
+    }
+    
+    .smallul > li {
+        margin-bottom: 1.5vw;
+        font-size: 1rem;
+    }
+    
+    .smallli {
+        width: 100%;
+    }
+    
+    .rightcont3img {
+        width: 50%;
+        height: 50vh;
+    }
+    
+    .rightcont3img > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* FAQ Section */
+    .questionfreq {
+        margin-top: 8vw;
+    }
+    
+    .freq_ques {
+        font-size: 2rem;
+    }
+    
+    .questionstart {
+        width: 70vw;
+        padding-top: 4vw;
+    }
+    
+    .q1 {
+        margin-bottom: 1.5vw;
+    }
+    
+    .question {
+        font-size: 1.2rem;
+    }
+    
+    details {
+        width: 65vw;
+    }
+    
+    details > p {
+        width: 65vw;
+        font-size: 1rem;
+    }
+    
+    /* Blog posts */
+    .featuredblog {
+        margin-top: 8vw;
+        margin-left: 4vw;
+        margin-bottom: 4vw;
+        font-size: 2rem;
+    }
+    
+    .blogpostsrow {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2vw;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    
+    .wholeblogelem {
+        width: 100%;
+    }
+    
+    .blogrowelement1,
+    .blogrowelement2,
+    .blogrowelement3 {
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .horizontal {
+        font-size: 1.2rem;
+        padding: 0.8vw;
+    }
+    
+    .contentofblog {
+        font-size: 1.2rem;
+        margin-top: 1.5vw;
+    }
+    
+    .date {
+        margin-top: 1vw;
+        gap: 0.8vw;
+    }
+    
+    .datetext {
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .beforefoothr {
+        margin-top: 5vw;
+    }
+    
+    .footer {
+        flex-direction: row;
+        gap: 6vw;
+        margin: 6vw 4vw 4vw 4vw;
+    }
+    
+    .join {
+        width: 35vw;
+        height: auto;
+    }
+    
+    .jointext {
+        font-size: 1rem;
+    }
+    
+    .joinpara {
+        font-size: 0.9rem;
+        margin-top: 1vw;
+    }
+    
+    .emailwhole {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    .email {
+        font-size: 1rem;
+    }
+    
+    .rightarr {
+        padding: 0.4rem;
+    }
+    
+    .copy {
+        margin-top: 4vw;
+        font-size: 0.9rem;
+    }
+    
+    .rightfoot {
+        gap: 4vw;
+    }
+    
+    .head {
+        font-size: 1.2rem;
+        margin-bottom: 1.5vw;
+    }
+    
+    .concierge {
+        gap: 0.8vw;
+    }
+    
+    .otherfoot {
+        font-size: 0.9rem;
+    }
+    
+    .textinr {
+        font-size: 1.2rem;
+    }
+    
+    .downarrow {
+        font-size: 1.4rem;
+    }
+}
+
+/* Mobile Breakpoint (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Top scrolling banner */
+    .scrollauto {
+        gap: 6vw;
+        font-size: 0.8rem;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    
+    .circle > img {
+        width: 1.8vw;
+        height: 2vh;
+    }
+    
+    /* Main navigation */
+    .bigmainimg {
+        height: 40vh;
+        margin-top: 3.5vw;
+    }
+    
+    .navtypeonimg {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .leftnav {
+        position: static;
+        margin-top: 4vw;
+        margin-left: 4vw;
+        gap: 4vw;
+        font-size: 1.2rem;
+    }
+    
+    .middlelogonav {
+        position: static;
+        transform: none;
+        order: -1;
+        margin: 4vw 0 0 4vw;
+    }
+    
+    .middlelogonav img {
+        width: 180px;
+    }
+    
+    .lastnav {
+        position: static;
+        margin: 3vw 0 0 4vw;
+        gap: 5vw;
+        font-size: 1.2rem;
+    }
+    
+    .searchicon > img {
+        width: 3vw;
+    }
+    
+    /* Product grid - 2 items per row on smaller tablets */
+    .clothsrow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        margin-bottom: 4vw;
+    }
+    
+    .clothelement {
+        height: 45vh;
+    }
+    
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        height: 30vh;
+    }
+    
+    .vertical {
+        top: 5%;
+        left: -6%;
+        transform: rotate(90deg) scale(0.7);
+    }
+    
+    .thirty {
+        padding: 0.5vw 1vw;
+    }
+    
+    /* Why Western Rise section */
+    .othercont3 {
+        flex-direction: column;
+        height: auto;
+        margin-top: 220vw;
+    }
+    
+    .leftcont3black {
+        width: 100%;
+        padding: 6vw 5vw;
+    }
+    
+    .rightcont3img {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    /* Blog posts */
+    .blogpostsrow {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4vw;
+    }
+    
+    .blogrowelement1,
+    .blogrowelement2,
+    .blogrowelement3 {
+        height: 25vh;
+    }
+}
+
+/* Small Mobile Breakpoint (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* Top scrolling banner */
+    .scrollauto {
+        gap: 4vw;
+        font-size: 0.7rem;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+    
+    .circle > img {
+        width: 2.5vw;
+        height: 2.5vh;
+    }
+    
+    /* Product grid - 1 item per row on mobile */
+    .clothsrow {
+        grid-template-columns: 1fr;
+        gap: 5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-bottom: 5vw;
+    }
+    
+    .clothelement {
+        height: 55vh;
+    }
+    
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        height: 40vh;
+    }
+    
+    .vertical {
+        top: 4%;
+        left: -8%;
+        transform: rotate(90deg) scale(0.6);
+    }
+    
+    .othercont3 {
+        margin-top: 380vw;
+    }
+    
+    /* Blog posts */
+    .blogpostsrow {
+        grid-template-columns: 1fr;
+        gap: 6vw;
+    }
+}
+
+/* Fix for viewport overflow */
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    .main {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+/* Improve touch targets for mobile */
+@media screen and (max-width: 768px) {
+    .shop > a,
+    .explore > a,
+    .support > a,
+    .searchicon,
+    .inr,
+    .emailwhole,
+    .otherfoot {
+        padding: 2vw;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .leftnav > div {
+        padding: 2vw 0;
+    }
+}
+
+/* Additional fixes for tablet spacing */
+@media screen and (max-width: 1024px) {
+    /* Fix product grid positioning */
+    .othercontent2 {
+        position: relative;
+    }
+    
+    /* Adjust the vertical positioning */
+    .vertical {
+        position: absolute;
+        transform-origin: left top;
+    }
+    
+    /* Ensure images maintain aspect ratio */
+    .pantimg1,
+    .pantimg2,
+    .pantimg3,
+    .pantimg4,
+    .pantimg5,
+    .pantimg6,
+    .pantimg7,
+    .pantimg8,
+    .pantimg9,
+    .pantimg10,
+    .pantimg11,
+    .pantimg12,
+    .pantimg13,
+    .pantimg14,
+    .pantimg15,
+    .pantimg16,
+    .pantimg17,
+    .pantimg18,
+    .pantimg19,
+    .pantimg20,
+    .pantimg21,
+    .pantimg22,
+    .pantimg23,
+    .pantimg24,
+    .pantimg25,
+    .pantimg26,
+    .pantimg27,
+    .pantimg28,
+    .pantimg29,
+    .pantimg30,
+    .pantimg31,
+    .pantimg32,
+    .pantimg33,
+    .pantimg34,
+    .pantimg35,
+    .pantimg36 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #f5f5f5;
+    }
+    
+    /* Fix dropdown positioning */
+    .wrapmainshop,
+    .wrapmainexplore,
+    .wrapmainsupport {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 1000;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    .mainshop {
+        position: relative;
+        margin: 10vh auto;
+        width: 90%;
+        max-width: 90vw;
+    }
+}
